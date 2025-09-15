@@ -1,0 +1,7 @@
+先明确一下思路：是agent 4 Federated Recommendation!
+一般做法：保留user embedding，上传item embedding
+agent能为FedRec做什么呢？
+1. 收集用户跨应用的信息，以形成更完善的用户画像；
+2. server agent可以考虑仿照通过构造用户关系图的方法，让agent对用户进行一个分组，不同分组共享不同聚合后的item embedding；
+3. 提升安全性？
+4. ......
